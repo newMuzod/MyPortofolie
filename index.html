@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>[Ismingiz] — Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header class="header">
+    <nav class="navbar container">
+      <a href="#home" class="logo">[Ismingiz].</a>
+
+      <button class="menu-toggle" aria-label="Menyuni ochish">
+        ☰
+      </button>
+
+      <ul class="nav-links">
+        <li><a href="#home">Bosh sahifa</a></li>
+        <li><a href="#about">Men haqimda</a></li>
+        <li><a href="#projects">Loyihalar</a></li>
+        <li><a href="#contact">Aloqa</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero container">
+      <div class="hero-content">
+        <p class="eyebrow">Salom, men</p>
+        <h1>[Ismingiz]</h1>
+        <h2>[Kasbingiz]</h2>
+        <p>
+          Zamonaviy va foydalanuvchiga qulay raqamli mahsulotlar yarataman.
+          G‘oyalarni chiroyli va samarali yechimlarga aylantirishni yaxshi ko‘raman.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">Loyihalarni ko‘rish</a>
+          <a href="#contact" class="btn btn-outline">Bog‘lanish</a>
+        </div>
+      </div>
+
+      <div class="hero-card">
+        <div class="avatar">[I]</div>
+        <p>Creative mind<br />Digital creator</p>
+      </div>
+    </section>
+
+    <section id="about" class="section container">
+      <div class="section-heading">
+        <span>01</span>
+        <h2>Men haqimda</h2>
+      </div>
+
+      <div class="about-grid">
+        <div>
+          <p>
+            Men [soha] yo‘nalishida tajribaga ega mutaxassisman. Har bir loyihada
+            oddiylik, sifat va yaxshi foydalanuvchi tajribasiga e’tibor beraman.
+          </p>
+          <p>
+            Yangi texnologiyalarni o‘rganish, jamoa bilan ishlash va murakkab
+            muammolarga sodda yechim topish menga yoqadi.
+          </p>
+        </div>
+
+        <div class="skills">
+          <h3>Asosiy ko‘nikmalarim</h3>
+          <div class="skill-list">
+            <span>HTML & CSS</span>
+            <span>JavaScript</span>
+            <span>UI/UX Design</span>
+            <span>Responsive Design</span>
+            <span>Figma</span>
+            <span>Git</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section section-dark">
+      <div class="container">
+        <div class="section-heading">
+          <span>02</span>
+          <h2>Loyihalarim</h2>
+        </div>
+
+        <div class="projects-grid">
+          <article class="project-card">
+            <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&w=900&q=80" alt="Online do‘kon loyihasi" />
+            <div class="project-content">
+              <p class="project-type">Web Design</p>
+              <h3>Online Store</h3>
+              <p>Minimalist va qulay elektron tijorat platformasi.</p>
+              <a href="#" class="project-link">Batafsil ko‘rish →</a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <img src="https://images.unsplash.com/photo-1558655146-d09347e92766?auto=format&fit=crop&w=900&q=80" alt="Mobil ilova loyihasi" />
+            <div class="project-content">
+              <p class="project-type">Mobile App</p>
+              <h3>Finance App</h3>
+              <p>Shaxsiy moliyani boshqarish uchun mobil ilova.</p>
+              <a href="#" class="project-link">Batafsil ko‘rish →</a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=900&q=80" alt="Dashboard loyihasi" />
+            <div class="project-content">
+              <p class="project-type">Dashboard</p>
+              <h3>Analytics Dashboard</h3>
+              <p>Ma’lumotlarni tahlil qilish uchun zamonaviy dashboard.</p>
+              <a href="#" class="project-link">Batafsil ko‘rish →</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section container contact">
+      <div class="section-heading">
+        <span>03</span>
+        <h2>Aloqa</h2>
+      </div>
+
+      <div class="contact-content">
+        <div>
+          <h3>Birgalikda loyiha yaratamizmi?</h3>
+          <p>Savollaringiz yoki hamkorlik taklifingiz bo‘lsa, men bilan bog‘laning.</p>
+          <a href="mailto:email@example.com" class="email">email@example.com</a>
+        </div>
+
+        <div class="social-links">
+          <a href="https://t.me/username" target="_blank">Telegram ↗</a>
+          <a href="https://instagram.com/username" target="_blank">Instagram ↗</a>
+          <a href="https://linkedin.com/in/username" target="_blank">LinkedIn ↗</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> [Ismingiz]. Barcha huquqlar himoyalangan.</p>
+  </footer>
+</body>
+</html>
